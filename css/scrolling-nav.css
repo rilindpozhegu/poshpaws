@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
+
+/*Fonts*/
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+
+/*Me*/
+
+
+.navigationbar-poshpaws{
+    font-family: 'Montserrat';
+    font-size: 10px;
+    color: #b3b3b3;
+    background-color: white;
+}
+
+.navigationbar-poshpaws li a{
+    border-right: solid 1px #b3b3b3;
+}
+
+.navbar-nav>li>a {
+    margin: 20px 0px;
+    padding: 0px 10px;
+    font-weight: bold;
+}
+.navbar-nav>li>a:hover {
+    color: #85d6df !important;
+}
+.navigationbar-icons i {
+    margin: 24px 0px;
+    padding: 0px 10px;
+    color: #a5ceee;
+    font-weight: bold;
+}
+
+.navigationbar-poshpaws img {
+    width: 200px;
+}
+
+/*On mobile*/
+.navbar-toggle {
+    background-color: white; 
+    float: left;
+    margin-left: 25px;
+    border: transparent;
+}
+.nav-m-icon {
+    background-color: #fe908b;
+} 
+.navbar-toggle {
+    background-color: white !important; 
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fe908b;
+    height: 2px;
+}
+
+
+
+
+/*MediaQuery Mobile*/
+
+@media only screen and (max-width: 844px) {
+    .navigationbar-poshpaws img {
+        float: right;
+        padding-right: 25px;
+    }
+}

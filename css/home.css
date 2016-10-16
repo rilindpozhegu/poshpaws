@@ -1,0 +1,306 @@
+/*Fonts*/
+@font-face {
+  font-family: 'GOTHAM-LIGHT';
+  src: url('../fonts/GOTHAM-LIGHT.TTF');
+ }
+@font-face {
+  font-family: 'GOTHAM-BLACK';
+  src: url('../fonts/GOTHAM-BLACK.TTF');
+ }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+@font-face {
+  font-family: 'GrandHotel-Regular';
+  src: url('../fonts/GrandHotel-Regular.otf');
+ }
+
+.small-padding {
+    padding: 5px;
+}
+/*
+**----Header Section----**
+*/
+
+.header-section {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-top: 7%;
+    background-image: url('../img/home-cover.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.cover-text {
+    text-align: left;
+    color: #353f44;
+}
+
+.cover-text h1 {
+    font-size: 45px;
+}
+
+.cover-text .first-paragph {
+    font-family: 'GOTHAM-LIGHT';
+}
+
+.cover-text .second-paragph {
+    margin-top: 0px;
+    font-family: 'GOTHAM-BLACK';
+}
+
+.cover-text button {
+    background-color: #fe908b;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cover-text button i {
+    padding-left: 7px;
+}
+
+
+
+/*
+**----Section2----**
+*/
+
+.about-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-image: url('../img/about-header.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.home_about-icons4 {
+    padding: 20px 0px;
+}
+.home_about-icons4 .icons-a1 {
+    width: 160px;
+}
+.home_about-icons4 h1 {
+    font-family: 'GrandHotel-Regular';
+}
+.points3 {
+    width: 50px !important;
+}
+.home_about-icons4 p {
+    padding: 10px 10px;
+    font-family: 'GOTHAM-LIGHT';
+}
+.home_about-icons4 button {
+    background: #a5ceee;
+    width: 150px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.home_about-icons4 button i{
+    padding-left: 10px;
+}
+
+
+
+/*
+**----Section3----**
+*/
+
+
+.section3 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url('../img/section3-background.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.section3 .section3-body h1{
+    font-family: 'GrandHotel-Regular';
+    color: white;
+    font-size: 50px;
+}
+.section3 .section3-body p{
+    font-family: 'GOTHAM-LIGHT';
+    color: white;
+    padding-top: 30px;
+}
+.section3 .section3-body button{
+    background-color: #85d6df;
+    color: white;
+    border-radius: 5px;
+    border:none;
+    width: 130px;
+    height: 37px;
+    margin-top: 10px;
+    font-family: 'Montserrat';
+}
+
+
+
+/*
+**----Contact Section----**
+*/
+
+.contact-section {
+    text-align: center;
+    background-color:#85d6df; 
+    padding: 40px 0px;
+}
+
+.contact-section h1 {
+    font-family: 'GrandHotel-Regular';
+    color: white;
+    font-size: 50px;
+}
+
+.contact-section p {
+    font-family: 'GOTHAM-LIGHT';
+    color: white;
+}
+
+.contact-section-email input {
+    width: 100%;
+    padding: 5px 10px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.contact-section-email input:focus {
+    outline: none;
+}
+.contact-section-email input:active {
+    outline: none;
+}
+.contact-section-email textarea {
+    width: 100%;
+    padding: 5px 10px;
+    border: solid 1px white;
+    color: white;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.contact-section-email textarea:focus {
+    outline: none;
+}
+.contact-section-email textarea:active {
+    outline: none;
+}
+.contact-section-email button {
+    background-color: #fe908b;
+    border: none;
+    border-radius: 5px;
+    width: 130px;
+    height: 37px;
+    color: white;
+    font-family: 'Montserrat';
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: white;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: white;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: white;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: white;
+}
+
+/*
+**----Contact Section2----**
+*/
+
+.contact-section2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-image: url('../img/section3-background.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.contact-section2 h1 {
+    font-family: 'GrandHotel-Regular';
+    color: white;
+    font-size: 70px;
+}
+
+.contact-section2 h4 {
+    font-family: 'GrandHotel-Regular';
+    color: white;
+    font-size: 30px;
+}
+
+.contact-section2 p {
+    font-family: 'GOTHAM-LIGHT';
+    color: white;
+    padding-top: 10px;
+}
+
+
+/*
+**----Footer----**
+*/
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: url('../img/footer-backg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer .rights-footer {
+    text-align: left;    
+    font-family: 'GOTHAM-LIGHT';
+    font-size:20px; 
+    color: #85d6df;
+}
+
+footer .socialmedia-footer {
+    text-align: right;
+    font-size:20px; 
+    color: #85d6df;
+
+}
+footer i {
+    padding: 0px 10px;
+    
+}
+
+/*Mobile Version*/
+
+@media only screen and (max-width: 844px) {
+    .cover-text {
+    text-align: center;
+    }
+
+    .display-none {
+        display: none;
+    }
+}

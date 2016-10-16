@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 195 194.7" style="enable-background:new 0 0 195 194.7;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A5CEEE;}
+	.st1{fill:#FF6A2E;}
+	.st2{fill:#CFC8AB;}
+	.st3{fill:#FFF8ED;}
+	.st4{clip-path:url(#XMLID_92_);fill:#945136;}
+	.st5{clip-path:url(#XMLID_92_);fill:#591200;}
+	.st6{fill:#591200;}
+</style>
+<circle id="XMLID_91_" class="st0" cx="97.7" cy="97.4" r="97.3"/>
+<g id="XMLID_56_">
+	<path id="XMLID_76_" class="st1" d="M155.3,79.5h-30l-7.9-6.2L88.1,50.4h30L155.3,79.5z M155.3,79.5"/>
+	<path id="XMLID_73_" class="st2" d="M125.3,79.5l-7.9-6.2v71h30V79.5H125.3z M125.3,79.5"/>
+	<path id="XMLID_70_" class="st3" d="M88.1,50.4L58.9,73.3v71h14V106c0-8.4,6.8-15.3,15.3-15.3c8.4,0,15.3,6.8,15.3,15.3v38.2h14
+		v-71L88.1,50.4z M88.1,50.4"/>
+	<g id="XMLID_60_">
+		<defs>
+			<rect id="XMLID_61_" x="49.2" y="48.5" width="108" height="97.7"/>
+		</defs>
+		<clipPath id="XMLID_92_">
+			<use xlink:href="#XMLID_61_"  style="overflow:visible;"/>
+		</clipPath>
+		<path id="XMLID_67_" class="st4" d="M103.4,106v38.2H72.9V106c0-8.4,6.8-15.3,15.3-15.3C96.6,90.8,103.4,97.6,103.4,106L103.4,106
+			z M103.4,106"/>
+		<path id="XMLID_62_" class="st5" d="M156.4,78.1L119.2,49c-0.3-0.2-0.7-0.4-1.1-0.4h-30c0,0,0,0,0,0c-0.4,0-0.8,0.1-1.1,0.4
+			L49.9,78.1c-0.8,0.6-0.9,1.7-0.3,2.4c0.3,0.4,0.9,0.7,1.4,0.7c0.4,0,0.8-0.1,1.1-0.4l5.1-4v67.4c0,1,0.8,1.7,1.7,1.7h14
+			c1,0,1.7-0.8,1.7-1.7V106c0-7.5,6.1-13.5,13.5-13.5c7.5,0,13.5,6.1,13.5,13.5v38.2c0,1,0.8,1.7,1.7,1.7h44c1,0,1.7-0.8,1.7-1.7
+			V86.4c0-1-0.8-1.7-1.7-1.7c-1,0-1.7,0.8-1.7,1.7v56h-26.5V76.8l5.1,4c0.3,0.2,0.7,0.4,1.1,0.4h30c0.7,0,1.4-0.5,1.6-1.2
+			C157.2,79.3,157,78.5,156.4,78.1L156.4,78.1z M115.7,142.5h-10.5V106c0-9.4-7.6-17-17-17c-9.4,0-17,7.6-17,17v36.4H60.6V74.1
+			l27.5-21.5l27.5,21.5V142.5z M125.9,77.7L93.2,52.1h24.3l32.8,25.6H125.9z M125.9,77.7"/>
+	</g>
+	<path id="XMLID_57_" class="st6" d="M96.5,142.5H79.8c-1,0-1.7,0.8-1.7,1.7s0.8,1.7,1.7,1.7h16.6c1,0,1.7-0.8,1.7-1.7
+		S97.4,142.5,96.5,142.5L96.5,142.5z M96.5,142.5"/>
+</g>
+</svg>
