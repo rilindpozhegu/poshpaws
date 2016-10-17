@@ -32,6 +32,8 @@
 
 
 
+
+
 /*
 **----Header Section----**
 */
@@ -42,7 +44,7 @@
     padding-bottom: 150px;
     text-align: center;
     margin-top: 7%;
-    background-image: url('../img/home-cover.png');
+    background-image: url('../img/contact-cover.png');
     background-repeat: no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
@@ -82,94 +84,6 @@
 .cover-text button i {
     padding-left: 7px;
 }
-
-
-
-
-
-/*
-**----Section2----**
-*/
-
-.about-section {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    text-align: center;
-    background-image: url('../img/about-header.png');
-    background-repeat: no-repeat;
-    background-size: 100%;
-}
-.home_about-icons4 {
-    padding: 20px 0px;
-}
-.home_about-icons4 .icons-a1 {
-    width: 160px;
-}
-.home_about-icons4 h1 {
-    font-family: 'GrandHotel-Regular';
-}
-.points3 {
-    width: 50px !important;
-}
-.home_about-icons4 p {
-    padding: 10px 10px;
-    font-family: 'GOTHAM-LIGHT';
-}
-.home_about-icons4 button {
-    background: #a5ceee;
-    width: 150px;
-    height: 36px;
-    border-radius: 5px;
-    border: none;
-    color: white;
-}
-.home_about-icons4 button i{
-    padding-left: 10px;
-}
-
-
-
-
-
-/*
-**----Section3----**
-*/
-
-
-.section3 {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    text-align: center;
-    background-image: url('../img/section3-background.png');
-    background-repeat: no-repeat;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -o-background-size:cover;
-    background-size:cover;
-    background-position:center;
-}
-
-.section3 .section3-body h1{
-    font-family: 'GrandHotel-Regular';
-    color: white;
-    font-size: 50px;
-}
-.section3 .section3-body p{
-    font-family: 'GOTHAM-LIGHT';
-    color: white;
-    padding-top: 30px;
-}
-.section3 .section3-body button{
-    background-color: #85d6df;
-    color: white;
-    border-radius: 5px;
-    border:none;
-    width: 130px;
-    height: 37px;
-    margin-top: 10px;
-    font-family: 'Montserrat';
-}
-
 
 
 
