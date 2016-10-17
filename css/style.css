@@ -105,7 +105,7 @@
 
 
 /*
-**----Header Section----**
+**----Header Section Kennels----**
 */
 
 .header-section {
@@ -154,6 +154,82 @@
 .cover-text button i {
     padding-left: 7px;
 }
+
+
+
+
+
+/*==============================*\
+**----Header Section CATTERY----**
+\*==============================*/
+
+
+.header-section-cattery {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-top: 7%;
+    background-image: url('../img/cattery-cover.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+
+
+
+/*===============================*\
+**----Header Section Grooming----**
+\*===============================*/
+
+
+.header-section-grooming {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-top: 7%;
+    background-image: url('../img/grooming-cover.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+  .grooming-header-text h1{
+    color: white ;
+  }
+
+
+
+
+
+/*=================================*\
+**----Header Section Relocation----**
+\*=================================*/
+
+
+.header-section-relocation {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-top: 7%;
+    background-image: url('../img/relocation-cover.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+
 
 
 

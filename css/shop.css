@@ -1,0 +1,196 @@
+/*Fonts*/
+@font-face {
+  font-family: 'GOTHAM-LIGHT';
+  src: url('../fonts/GOTHAM-LIGHT.TTF');
+ }
+@font-face {
+  font-family: 'GOTHAM-BLACK';
+  src: url('../fonts/GOTHAM-BLACK.TTF');
+ }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+@font-face {
+  font-family: 'GrandHotel-Regular';
+  src: url('../fonts/GrandHotel-Regular.otf');
+ }
+
+.small-padding {
+    padding: 5px;
+}
+
+.active {
+    color: #85d6df !important;
+}
+.active:active {
+    color: #85d6df;
+}
+.active:focus {
+    color: #85d6df;
+}
+
+
+
+
+
+/*
+**----Header Section----**
+*/
+
+.header-section {
+    height: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    margin-top: 7%;
+    background-image: url('../img/shop-cover.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.cover-text {
+    text-align: left;
+    color: white;
+}
+
+.cover-text h1 {
+    font-size: 45px;
+}
+
+.cover-text .first-paragph {
+    font-family: 'GOTHAM-LIGHT';
+}
+
+.cover-text .second-paragph {
+    margin-top: 0px;
+    font-family: 'GOTHAM-BLACK';
+}
+
+.cover-text button {
+    background-color: #fe908b;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.cover-text button i {
+    padding-left: 7px;
+}
+
+
+
+
+
+
+/*
+**----Section 1----**
+*/
+.section-1 {
+  padding: 100px 0px;
+}
+
+.section-1 h1 {
+  font-family: 'GrandHotel-Regular';
+  font-size: 50px;
+  color: #85d6df;
+}
+
+.section-1 p {
+  font-family: 'GOTHAM-LIGHT';
+
+}
+
+.section-1 span {
+  color: #85d6df;
+  font-family: 'GOTHAM-LIGHT';
+}
+
+
+
+
+
+/*
+**----Section 2----**
+*/
+.section2 {
+    padding: 70px 0px;
+    background-image: url('../img/section3-background.png');
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.section2 .image-section img{
+  width: 100%;
+}
+
+.text-section {
+  text-align: center;
+}
+
+.text-section h1 {
+  color: white;
+  font-size: 50px;
+  font-family: 'GrandHotel-Regular';
+}
+
+.text-section p {
+  color: white;
+  font-family: 'GOTHAM-LIGHT';
+  padding: 10px 0px;
+
+}
+.padding-middle {
+  padding: 30px 0px;
+}
+/*
+**----Footer----**
+*/
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-image: url('../img/footer-backg.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+footer .rights-footer {
+    text-align: left;    
+    font-family: 'GOTHAM-LIGHT';
+    font-size:20px; 
+    color: #85d6df;
+}
+
+footer .socialmedia-footer {
+    text-align: right;
+    font-size:20px; 
+    color: #85d6df;
+}
+footer i {
+    padding: 0px 10px;
+    
+}
+@media only screen and (max-width: 844px) {
+    footer {
+        text-align: center;
+    }
+    .rights-footer {
+        display: none;
+    }
+    footer .socialmedia-footer {
+        text-align: center !important;
+    }
+}
