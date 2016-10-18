@@ -110,6 +110,52 @@
 
 
 
+/*
+**----Testimonials Section----**
+*/
+.testimonials-section1 {
+    background-color: #85d6df;
+    padding: 60px 0px;
+}
+.top-testimonials {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.top-testimonials h1{
+    font-family: 'GrandHotel-Regular';
+    font-size: 45px;
+}
+.top-testimonials {
+    font-family: 
+}
+.testim-1 {
+    text-align: center;
+    padding: 0px 60px;
+}
+.testim-1 img{
+    width: 30px;
+}
+.test-top-text {
+    padding: 60px 30px;
+    margin-bottom: 10px;
+    border: solid 1px #e6e6e6;
+    border-radius: 5px;
+    background-color: white;
+}
+.test-top-text img {
+    margin-bottom: 40px;
+}
+.test-bottom img{
+    width: 50px;
+}
+.test-bottom h5 {
+    font-weight: bolder;
+    margin-bottom: 2px;
+}
+
+
+
+
 
 /*
 **----Contact Section2----**
