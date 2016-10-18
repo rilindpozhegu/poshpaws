@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/shop.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -103,7 +104,7 @@
     </section>
 
     <!-- Section 2 -->
-    <section id="services" class="section2">
+    <section class="section2">
         <div class="container">
             <div class="row padding-middle">
                 <div class="col-md-6 image-section">
@@ -129,11 +130,108 @@
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact-section">
+
+    <!-- Section 3 -->
+    <section class="section3">
         <div class="container">
             <div class="row">
-                
+                <div class="col-md-4 col-xs-12 row shop-panel1">
+                    <div class="panel-header">
+                        <h1>Option 1</h1>
+                        <p>We provide 2 staff to assist the children in handling the animals.</p>
+                    </div>
+                    <div class="panel-body">
+                        <p>Pet Party at your home for 1 hour. Dhs 800</p>
+                        <p>Hamster <br>
+                            Guinea pig<br>
+                            Rabbit<br>
+                            Ferret<br>
+                            Chicken / Chick<br>
+                            Duck / Duckling<br>
+                            Parrot<br>
+                            Cat / kitten<br>
+                            Dog /Puppy<br>
+                            Tortoise<br>
+                            Pygmy Goat <br>
+                            Snake
+                        </p>
+                    </div> 
+                    <div class="panel-footer1">
+                        <p>Book A Desert Chill ice cream van.<br>Tel 056 2640605</p>
+                    </div>   
+                </div>
+
+                <div class="col-md-4 col-xs-12 row shop-panel1">
+                    <div class="panel-header">
+                        <h1>Option 2</h1>
+                        <p>We provide 2 staff to assist the children in handling the animals.</p>
+                    </div>
+                    <div class="panel-body">
+                        <p>A pony at your home for 1 hour. Dhs 800<br>Dhs 600 if adding to option 1</p>
+                        <p style="font-size: 25px;">We can bring Shetland ponies to your home for young children to ride.
+                        </p>
+                    </div> 
+                    <div class="panel-footer1">
+                        <p>Book A Desert Chill ice cream van.<br>Tel 056 2640605</p>
+                    </div>   
+                </div>
+
+                <div class="col-md-4 col-xs-12 row shop-panel1">
+                    <div class="panel-header">
+                        <h1>Option 3</h1>
+                        <p>We provide 2 staff to assist the children in handling the animals.</p>
+                    </div>
+                    <div class="panel-body">
+                        <p>Pet Party at your home for 1 hour. Dhs 800</p>
+                        <p>Reopen in November after the summer heat in a new and better location at Al Hamra Stables, Al Khawaneej 2, Dubai!
+</p>
+                        <p>A bucket of food each to feed the  <br>
+                            Handling the animals<br>
+                            Pony riding included<br>
+                            Holding the snake<br>                            
+                            Holding the snake<br>
+                            Feeding the birds and animals<br>
+                            They can also volunteer to wash animals!<br>
+                        </p>
+                    </div> 
+                    <div class="panel-footer1">
+                        <p>Book A Desert Chill ice cream van.<br>Tel 056 2640605</p>
+                    </div>   
+                </div>
+            </div>
+        </div>    
+    </section>
+
+    <!-- Section 4 -->
+    <section>
+        <div class="section4">
+            <div class="container">
+                <div class="col-xs-12">
+                    <h1>Petting From Parties</h1>
+                    <p>Our new farm in Al Khawaneej 2 will be open on 1 st November at Al Hamra Stables.</p>
+                    <img src="img/3points.svg" style="width:70px; padding-bottom: 30px;">                    
+                </div>
+                <div class="col-md-4 input-s">
+                    <input type="text" name="Name" placeholder="Name">
+                    <input type="text" name="Name" placeholder="People Attending">
+                    <input type="text" name="Name" placeholder="Pets you don't require">
+                </div>
+                <div class="col-md-4 input-s">
+                    <input type="text" name="Name" placeholder="E-mail">
+                    <input type="text" name="Name" placeholder="Address">
+                    <input type="text" name="Name" placeholder="Indoor/ Outdoor">
+                </div>
+                <div class="col-md-4 input-d">
+                    <input class="datepicker1" name="Name" placeholder="Select Date">
+                    <input class="datepicker2" name="Name" placeholder="Start Date">
+                    <select class="select-package">
+                        <option value="" selected disabled>Select Package</option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                        <option value="">C</option>
+                    </select>
+                </div>
+                <div class="col-md-12 input-e"><button>Confirm</button></div>
             </div>
         </div>
     </section>
@@ -163,8 +261,16 @@
 
     <!-- Mix, Maps,  -->
     <script type="text/javascript" src="js/poshpaws.js"></script>
-    <!-- Maps -->
-    <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f7a81188932b979f00e906995100902308c60873'></script>
+    
+    <!-- DatePicker -->
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        $('.datepicker1').datepicker()
+        $('.datepicker2').datepicker()
+
+        // Drop down
+    </script>
+
 
 </body>
 
