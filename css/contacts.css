@@ -94,25 +94,25 @@
 
 .contact-section {
     text-align: center;
-    background-color:#85d6df; 
+    background-color: white; 
     padding: 40px 0px;
 }
 
 .contact-section h1 {
     font-family: 'GrandHotel-Regular';
-    color: white;
+    color: #85d6df;
     font-size: 50px;
 }
 
 .contact-section p {
     font-family: 'GOTHAM-LIGHT';
-    color: white;
+    color: #85d6df;
 }
 
 .contact-section-email input {
     width: 100%;
     padding: 10px 10px;
-    border: solid 1px white;
+    border: solid 1px #85d6df;
     color: white;
     background-color: transparent;
     border-radius: 5px;
@@ -126,7 +126,7 @@
 .contact-section-email textarea {
     width: 100%;
     padding: 10px 10px;
-    border: solid 1px white;
+    border: solid 1px #85d6df;
     color: white;
     background-color: transparent;
     border-radius: 5px;
@@ -147,16 +147,16 @@
     font-family: 'Montserrat';
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: white;
+  color: #85d6df;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: white;
+  color: #85d6df;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: white;
+  color: #85d6df;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: white;
+  color: #85d6df;
 }
 
 
@@ -171,7 +171,7 @@
     padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
-    background-image: url('../img/section3-background.png');
+    background: #85d6df;
     background-repeat: no-repeat;
     -webkit-background-size:cover;
     -moz-background-size:cover;
