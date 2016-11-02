@@ -1,0 +1,138 @@
+/*Fonts*/
+@font-face {
+  font-family: 'GOTHAM-LIGHT';
+  src: url('../fonts/GOTHAM-LIGHT.TTF');
+ }
+@font-face {
+  font-family: 'GOTHAM-BLACK';
+  src: url('../fonts/GOTHAM-BLACK.TTF');
+ }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../fonts/Montserrat-Regular.ttf');
+ }
+@font-face {
+  font-family: 'GrandHotel-Regular';
+  src: url('../fonts/GrandHotel-Regular.otf');
+ }
+
+.modal-content {
+	background-color: #a5ceee;
+}
+.modal-content .input-s {
+	padding: 5px 2px;
+}
+.modal-content .input-d {
+	padding: 5px 2px;
+}
+.modal-header {
+	border: none;
+	text-align: center;
+}
+.modal-header h4 {
+	font-family: 'GrandHotel-Regular';
+	color: white;
+	font-size: 45px;
+}
+
+.modal-header p {
+	color: white;
+	font-family: 'GOTHAM-LIGHT';
+}
+
+.popup_textarea textarea {
+	width: 100%;
+	resize:vertical;
+	background: transparent;
+	border-radius: 5px;
+    border: solid 2px white;
+    padding: 20px 15px;
+    margin: 5px;
+}
+
+.select-package {
+	color: white;
+}
+.popup_textarea {
+	padding: 0px;
+}
+.popup_textarea textarea:focus {
+	outline: none;
+}
+.popup_textarea textarea:active {
+	outline: none;
+}
+.modal-footer {
+	border:none;
+}
+.modal-footer button {
+	float: left;
+}
+.popup_button {
+    background-color: #fe908b;
+    color: white;
+    font-family: 'GOTHAM-LIGHT';
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.last-section_popup p {
+	font-family: 'GOTHAM-LIGHT';
+	color: white;
+	margin: 0px;
+}
+
+/*Inputs*/
+.input-s input{
+  background-color: transparent;
+  border-radius: 5px;
+  border: solid 2px rgba(255, 255, 255, 0.52);
+  width: 100%;
+  padding: 15px 15px;
+  margin: 5px;
+}
+.input-s input:active {
+  outline: none;
+}
+.input-s input:focus {
+  outline: none;
+}
+/*Data*/
+.datepicker {
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  z-index: 99999999999;
+}
+
+.input-d input {
+  background-color: #fe908b;
+  width: 100%;
+  border: none;
+  padding: 17px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.input-d input:hover {
+  cursor: pointer;
+}
+.select-package {
+  background-color: #fe908b;
+  width: 100%;
+  border: none;
+  padding: 17px 15px;
+  margin: 5px;
+  border-radius: 5px;
+}
+.select-package option {
+  background-color: white;
+  color: #344a5f;
+}
+.select-package:active {
+  outline: none;
+}
+.select-package:focus {
+  outline: none;
+}

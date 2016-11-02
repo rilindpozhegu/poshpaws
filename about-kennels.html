@@ -19,6 +19,8 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/popup-modal.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -84,7 +86,7 @@
                 <div class="col-lg-12 cover-text">
                     <h1 class="first-paragph">Aout</h1>
                     <h1 class="second-paragph">KENNELS</h1>
-                    <button>Book an Appointment <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <button data-toggle="modal" data-target="#myModal">Book an Appointment <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
@@ -188,6 +190,106 @@
             </div>
         </div>
     </footer>
+
+
+
+<!-- popup-Modal -->
+<!-- Modal -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModal">
+  <div class="modal-dialog modal-lg medium-popup" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Cat Boarding Form</h4>
+            <img src="img/3points.svg" style="width:70px">
+        </div>
+      <div class="modal-body">
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Name" placeholder="Male/Female">
+            <input type="text" name="Name" placeholder="Neutred?">
+            <input type="text" name="Name" placeholder="Breed">
+            <input type="text" name="Name" placeholder="Color">
+        </div>
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Name" placeholder="Male/Female">
+            <input type="text" name="Name" placeholder="Neutred?">
+            <input type="text" name="Name" placeholder="Breed">
+            <input type="text" name="Name" placeholder="Color">
+        </div>
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Name" placeholder="Male/Female">
+            <input type="text" name="Name" placeholder="Neutred?">
+            <input type="text" name="Name" placeholder="Breed">
+            <input type="text" name="Name" placeholder="Color">
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="second-section_popup" style="margin-top: 20px;">
+            <div class="col-md-3 input-s">
+                <input type="text" name="Name" placeholder="Arrival Date">
+                <input type="text" name="Name" placeholder="Telephone">
+            </div>
+            <div class="col-md-3 input-s">
+                <input type="text" name="Name" placeholder="Dept Date">
+                <input type="text" name="Name" placeholder="Moblie 1">
+            </div>
+            <div class="col-md-3 input-s">
+                <input type="text" name="Name" placeholder="Owner's Name">
+                <input type="text" name="Name" placeholder="Mobile 2"> 
+            </div>
+            <div class="col-md-3 input-s">
+                <input type="text" name="Name" placeholder="Address">
+                <input type="text" name="Name" placeholder="Email">
+            </div>
+            <div class="col-md-6 input-s">
+                <input type="text" name="Name" placeholder="Emergency Contact Details">
+            </div>
+            <div class="col-md-3 input-s">                
+                <input type="text" name="Name" placeholder="Vet">
+            </div>
+            <div class="col-md-3 input-s">                
+                <input type="text" name="Name" placeholder="Vet Tel">
+            </div>
+        </div>    
+        <div class="clearfix"></div>
+        <div class="third-section_popup" style="margin-top: 20px;">
+            <div class="col-md-6 input-s">
+                <input type="text" name="Name" placeholder="Medical History">
+            </div>
+            <div class="col-md-3 input-s">                
+                <input type="text" name="Name" placeholder="Collection Yes/No">
+            </div> 
+            <div class="col-md-3 input-s">                
+                <input type="text" name="Name" placeholder="Delivery Yes/No">
+            </div>
+        </div>
+
+        <div class="clearfix"></div>
+        <div class="last-section_popup" style="margin-top: 20px;">
+            <div class="col-md-12">
+                <p>Frontline will be given on arrival unless otherwise advised.</p>
+            </div>
+            <div class="col-md-12 input-s">
+                <input type="text" name="Name" placeholder="Name">
+            </div>
+        </div>
+
+
+        <div class="clearfix"></div>
+      </div>
+        <div class="modal-footer">
+            <button type="button" class="popup_button">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of the popup -->    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

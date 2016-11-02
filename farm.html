@@ -20,6 +20,9 @@
     <link rel="stylesheet" type="text/css" href="css/datepicker">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+    <!-- Modal Popup -->
+    <link rel="stylesheet" type="text/css" href="css/popup-modal.css">
 </head>
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
@@ -86,7 +89,7 @@
                     <h1 class="first-paragph">Poshpaws Animal Sanctuary <br>
 and Petting Farm at Al Hamra <br>
 Stables, Al Khawaneej 2, Dubai</h1>
-                    <button>Book an Appointment <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <button data-toggle="modal" data-target="#myModal">Book an Appointment <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div>
@@ -115,6 +118,7 @@ Stables, Al Khawaneej 2, Dubai</h1>
                     <h1>School Trips to Farm / School Visits</h1>
                     <img src="img/3points.svg" style="width:70px">
                     <p>An excellent way to give students of all ages a fun filled educational experience is a trip to our farm, they can pet, hold and feed their favorite animals. We can also bring the animals to your school, ideal for the younger age groups. Firsthand experience allows them to appreciate the animal’s needs and understand that animals need love too! Book your school trip today. </p>
+                    <button data-toggle="modal" data-target="#modal_school">School tips <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
             </div>
             <div class="row padding-middle">
@@ -123,6 +127,7 @@ Stables, Al Khawaneej 2, Dubai</h1>
                     or event with our animals…</h1>
                     <img src="img/3points.svg" style="width:70px">
                     <p>An excellent way to give students of all ages a fun filled educational experience is a trip to our farm, they can pet, hold and feed their favorite animals. We can also bring the animals to your school, ideal for the younger age groups. Firsthand experience allows them to appreciate the animal’s needs and understand that animals need love too! Book your school trip today. </p>
+                    <button data-toggle="modal" data-target="#events_modal">Event <i class="fa fa-angle-right" aria-hidden="true"></i></button>
                 </div>
                 <div class="col-md-6 image-section">
                     <img src="img/img31.png">
@@ -250,6 +255,157 @@ Stables, Al Khawaneej 2, Dubai</h1>
             </div>
         </div>
     </footer>
+
+
+
+
+<!-- popup-Modal -->
+<!-- Modal Book an Appointment -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModal">
+  <div class="modal-dialog modal-lg medium-popup" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Petting Farm Parties</h4>
+            <p>Our new farm in Al Khawaneej 2 will be open on 1 st November at Al Hamra Stables.</p>
+            <img src="img/3points.svg" style="width:70px">
+        </div>
+      <div class="modal-body">
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Name" placeholder="People Attending">
+            <input type="text" name="Name" placeholder="Pets you don't require">
+        </div>
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="E-mail">
+            <input type="text" name="Name" placeholder="Address">
+            <input type="text" name="Name" placeholder="Indoor/ Outdoor">
+        </div>
+        <div class="col-md-4 input-d">
+            <input class="datepicker1" name="Name" placeholder="Select Date">
+            <input class="datepicker2" name="Name" placeholder="Start Date">
+            <select class="select-package">
+                <option value="" selected disabled>Select Package</option>
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+            </select>
+        </div>
+        <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
+            <textarea rows="2" placeholder="Animals we bring to school: hamster, guinea pig, rabbit, tortoise, duck, chicken, snake, cat, dog, parrot, pygmy,
+goat and ferret. Please mention any you don’t require." style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        </div>
+        <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
+            <textarea rows="1" placeholder="Face Painter Dhs 300/hour" style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+        <div class="modal-footer">
+            <button type="button" class="popup_button">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of the popup -->
+
+
+
+<!-- PopUp School -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="modal_school">
+  <div class="modal-dialog modal-lg medium-popup" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Petting Farm Parties</h4>
+            <p>Our new farm in Al Khawaneej 2 will be open on 1 st November at Al Hamra Stables.</p>
+            <img src="img/3points.svg" style="width:70px">
+        </div>
+      <div class="modal-body">
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="School’s Name">
+            <input type="text" name="Name" placeholder="Age of Children">
+            <input type="text" name="Name" placeholder="Event Location">
+        </div>
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="E-mail">
+            <input type="text" name="Name" placeholder="Address/Phone Number">
+            <input type="text" name="Name" placeholder="Indoor/ Outdoor">
+        </div>
+        <div class="col-md-4 input-d">
+            <input class="datepicker1" name="Name" placeholder="Contact Details & Teachers Name">
+            <input class="datepicker2" name="Name" placeholder="Start Date">
+            <input type="text" name="Name" placeholder="Special Requirements" style="background-color: transparent; border:solid 2px rgba(255, 255, 255, 0.52); padding: 15px 15px; cursor: auto;">
+        </div>
+        <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
+            <textarea rows="1" placeholder="Are you coming to the farm or are we coming to your School?" style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        </div>
+        <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
+            <textarea rows="2" placeholder="Animals we bring to school: hamster, guinea pig, rabbit, tortoise, duck, chicken, snake, cat, dog, parrot, pygmy, goat and ferret. Please mention any you don’t require." style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+        <div class="modal-footer">
+            <button type="button" class="popup_button">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- End of popup school -->
+
+<!-- Modal Book an Appointment -->
+<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="events_modal">
+  <div class="modal-dialog modal-lg medium-popup" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+            <h4 class="modal-title" id="myModalLabel">Petting Farm Parties</h4>
+            <p>Our new farm in Al Khawaneej 2 will be open on 1 st November at Al Hamra Stables.</p>
+            <img src="img/3points.svg" style="width:70px">
+        </div>
+      <div class="modal-body">
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="Name">
+            <input type="text" name="Name" placeholder="People Attending">
+            <input type="text" name="Name" placeholder="Pets you don't require">
+        </div>
+        <div class="col-md-4 input-s">
+            <input type="text" name="Name" placeholder="E-mail">
+            <input type="text" name="Name" placeholder="Address">
+            <input type="text" name="Name" placeholder="Indoor/ Outdoor">
+        </div>
+        <div class="col-md-4 input-d">
+            <input class="datepicker1" name="Name" placeholder="Select Date">
+            <input class="datepicker2" name="Name" placeholder="Start Date">
+            <select class="select-package">
+                <option value="" selected disabled>Select Package</option>
+                <option value="">A</option>
+                <option value="">B</option>
+                <option value="">C</option>
+            </select>
+        </div>
+        <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
+            <textarea rows="2" placeholder="Animals we bring to school: hamster, guinea pig, rabbit, tortoise, duck, chicken, snake, cat, dog, parrot, pygmy,
+goat and ferret. Please mention any you don’t require." style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+        <div class="modal-footer">
+            <button type="button" class="popup_button">Save changes</button>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!-- end of the popup -->
+
+
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
 

@@ -135,6 +135,17 @@
   width: 100%;
 }
 
+.section2 button {
+    background-color: #fe908b;
+    border: none;
+    height: 40px;
+    width: 200px;
+    color: white;
+    font-family: 'Montserrat';
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
 .text-section {
   text-align: center;
 }
@@ -266,6 +277,7 @@
   cursor: pointer;
   width: 200px;
   text-align: center;
+  z-index: 99999999999;
 }
 .input-d input {
   background-color: #fe908b;
