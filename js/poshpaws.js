@@ -3,13 +3,13 @@
 function init_map() {
     var myOptions = {
         zoom: 10,
-        center: new google.maps.LatLng(41, 20),
+        center: new google.maps.LatLng(25.00812512967565, 55.180538547485426),
         mapTypeId: google.maps.MapTypeId.ROADMAP
     };
     map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
     marker = new google.maps.Marker({
         map: map,
-        position: new google.maps.LatLng(41, 20)
+        position: new google.maps.LatLng(25.00812512967565, 55.180538547485426)
     });
     infowindow = new google.maps.InfoWindow({
         content: '<strong></strong><br><br> <br>'

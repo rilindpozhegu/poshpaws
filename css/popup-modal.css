@@ -130,6 +130,9 @@
   background-color: white;
   color: #344a5f;
 }
+.select-package span {
+	float: right;
+}
 .select-package:active {
   outline: none;
 }
