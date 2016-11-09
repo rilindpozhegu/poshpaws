@@ -68,6 +68,16 @@
 .modal-footer button {
 	float: left;
 }
+
+.modal-footer input {
+      background-color: #fe908b;
+    color: white;
+    font-family: 'GOTHAM-LIGHT';
+    border: none;
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+}
 .popup_button {
     background-color: #fe908b;
     color: white;
