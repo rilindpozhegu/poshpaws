@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/contacts.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -103,10 +104,10 @@
                     <input type="text" name="email" placeholder="Name">
                 </div>
                 <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
                 </div>
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
+                <div class="col-md-4 small-padding input-d">                    
+                    <input class="datepicker2" name="pet_fdate" placeholder="Start Date">
                 </div>
                 <div class="col-md-12 col-xs-12 small-padding">
                     <textarea placeholder="Input text" rows="7"></textarea>
@@ -170,6 +171,11 @@
     <!-- Maps -->
     <script type='text/javascript' src='https://embedmaps.com/google-maps-authorization/script.js?id=f7a81188932b979f00e906995100902308c60873'></script>
 
+        <!-- Select Date -->
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        $('.datepicker2').datepicker()
+    </script>
 </body>
 
 </html>

@@ -199,7 +199,7 @@
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    background-position:center;
+    background-position:left;
 }
   .grooming-header-text h1{
     color: white ;
@@ -226,9 +226,11 @@
     -moz-background-size:cover;
     -o-background-size:cover;
     background-size:cover;
-    background-position:center;
+    background-position:right;
 }
-
+.header-section-relocation h1{
+    color: #353f44;
+}
 
 
 
@@ -357,7 +359,9 @@ footer i {
 }
 
 
-
+#error_ {
+    display: none;
+}
 
 /*Only on Desktop*/
 

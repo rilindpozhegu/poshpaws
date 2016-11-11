@@ -368,6 +368,9 @@ footer i {
       text-align: center;
       padding: 0px 0px 0px 30px;
     }
+    .cover-text h1 {
+        font-size: 35px;
+    }
 
 }
 

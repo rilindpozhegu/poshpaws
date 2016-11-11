@@ -257,7 +257,9 @@ footer i {
     .cover-text {
     text-align: center;
     }
-
+    .header-section {
+        background-position: right;
+    }
     .display-none {
         display: none;
     }

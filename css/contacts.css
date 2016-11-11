@@ -113,7 +113,7 @@
     width: 100%;
     padding: 10px 10px;
     border: solid 1px #85d6df;
-    color: white;
+    color: #85d6df;
     background-color: transparent;
     border-radius: 5px;
 }
@@ -127,7 +127,7 @@
     width: 100%;
     padding: 10px 10px;
     border: solid 1px #85d6df;
-    color: white;
+    color: #85d6df;
     background-color: transparent;
     border-radius: 5px;
 }
@@ -198,6 +198,22 @@
     padding-top: 10px;
 }
 
+.datepicker {
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  z-index: 99999999999;
+}
+.input-d input {
+  background-color: white;
+  width: 100%;
+  border: #85d6df solid 1px;
+  padding: 11px 15px;
+  border-radius: 5px;
+}
+.input-d input:hover {
+  cursor: pointer;
+}
 
 
 
@@ -244,7 +260,9 @@ footer i {
     }
 }
 
-
+#error_ {
+    display: none;
+}
 /*Only on Desktop*/
 
 @media only screen and (min-width: 844px) {

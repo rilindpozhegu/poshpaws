@@ -56,7 +56,7 @@ $mailer = Swift_Mailer::newInstance($transport);
 // Create a message
 $message = Swift_Message::newInstance('Hello from Emirates Graphics')
   ->setFrom(array('blinizeka@gmail.com' => 'Blin Zeka'))
-  ->setTo(array('blinizeka@gmail.com' => 'Me'))
+  ->setTo(array('rilindp@gmail.com' => 'Me'))
   ->setBody($bodyMail, 'text/html');
 
 // Send the message

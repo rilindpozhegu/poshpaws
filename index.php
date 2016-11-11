@@ -17,6 +17,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker">
     <!-- Font Awesome -->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
 </head>
@@ -83,7 +84,7 @@
             <div class="row">
                 <div class="col-lg-12 cover-text">
                     <h1 class="first-paragph">Your Pets HOME</h1>
-                    <h1 class="second-paragph">AWAY FROM HOME <br><span style="color: #fe908b; font-size: 30px;">"WEBSITE UNDER CONSTRUCTION"</span></h1>
+                    <h1 class="second-paragph">AWAY FROM HOME <br></h1>
                     <a href="contact.html"><button>Book an Appointment <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div>
@@ -143,7 +144,7 @@
                     <h1>How it all Began</h1>
                     <img src="img/3points.svg" style="width:70px">
                     <p>It all started with a bad haircut day, not me but my dog ‘Berty’, at the local kennels. So off to the UK I went on a month long grooming course and that’s how Posh Paws grooming started. It wasn’t long before, my clients were asking me to take care of their dogs during the summer holidays; so that’s how the boarding started and it grew and it grew. That’s when I had to open up Posh Paws Boarding Kennels and Cattery to cope with the growing demand for a high quality kennel with a caring and attentive staff</p>
-                    <button>More <i class="fa fa-angle-right" aria-hidden="true"></i></button>
+                    <a href="about.html"><button>More <i class="fa fa-angle-right" aria-hidden="true"></i></button></a>
                 </div>
             </div>
         </div>
@@ -213,10 +214,10 @@
                     <input type="text" name="email" placeholder="Name">
                 </div>
                 <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
+                    <input type="text" name="email" placeholder="Email">
                 </div>
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
+                <div class="col-md-4 small-padding input-d">                    
+                    <input class="datepicker2" name="pet_fdate" placeholder="Start Date">
                 </div>
                 <div class="col-md-12 col-xs-12 small-padding">
                     <textarea placeholder="Input text" rows="7"></textarea>
@@ -287,7 +288,11 @@
     <!-- Mix, Maps,  -->
     <script type="text/javascript" src="js/poshpaws.js"></script>
 
-
+    <!-- Select Date -->
+    <script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+    <script type="text/javascript">
+        $('.datepicker2').datepicker()
+    </script>
 </body>
 
 </html>

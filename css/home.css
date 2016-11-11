@@ -329,7 +329,22 @@
 }
 
 
-
+.datepicker {
+  cursor: pointer;
+  width: 200px;
+  text-align: center;
+  z-index: 99999999999;
+}
+.input-d input {
+  background-color: #fe908b;
+  width: 100%;
+  border: none;
+  padding: 11px 15px;
+  border-radius: 5px;
+}
+.input-d input:hover {
+  cursor: pointer;
+}
 
 
 
@@ -391,7 +406,9 @@ footer i {
     .cover-text {
     text-align: center;
     }
-
+    .header-section {
+        background-position: right;
+    }
     .display-none {
         display: none;
     }
