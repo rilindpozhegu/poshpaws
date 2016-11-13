@@ -263,7 +263,7 @@ Stables, Al Khawaneej 2, Dubai</h1>
 
 <!-- popup-Modal -->
 <!-- Modal Book an Appointment -->
-<form id="pettingFarm">
+
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModal">
   <div class="modal-dialog modal-lg medium-popup" role="document">
     <div class="modal-content">
@@ -276,43 +276,45 @@ Stables, Al Khawaneej 2, Dubai</h1>
             <img src="img/3points.svg" style="width:70px">
         </div>
       <div class="modal-body">
+        <form id="modalPetting">
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="People Attending">
-            <input type="text" name="Name" placeholder="Pets you don't require">
+            <input type="text" name="modal_name" placeholder="Name">
+            <input type="text" name="modal_attending" placeholder="People Attending">
+            <input type="text" name="modal_pets" placeholder="Pets you don't require">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="E-mail">
-            <input type="text" name="Name" placeholder="Address">
-            <input type="text" name="Name" placeholder="Indoor/ Outdoor">
+            <input type="text" name="modal_mail" placeholder="E-mail">
+            <input type="text" name="modal_address" placeholder="Address/Phone Number">
+            <input type="text" name="modal_inout" placeholder="Indoor/ Outdoor">
         </div>
         <div class="col-md-4 input-d">
-            <input class="datepicker1" name="Name" placeholder="Select Date">
-            <input class="datepicker2" name="Name" placeholder="Start Date">
-            <select class="select-package">
-                <option value="" selected disabled>Select Package</option>
-                <option value="">A</option>
-                <option value="">B</option>
-                <option value="">C</option>
+            <input class="datepicker1" name="modal_date1" placeholder="Select Date">
+            <input class="datepicker2" name="modal_date2" placeholder="Start Date">
+            <select name="modal_dropDown" class="select-package">
+                        <option value="" selected disabled>Select Package</option>
+                        <option value="">A</option>
+                        <option value="">B</option>
+                        <option value="">C</option>
             </select>
         </div>
         <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
-            <textarea rows="2" placeholder="Animals we bring to school: hamster, guinea pig, rabbit, tortoise, duck, chicken, snake, cat, dog, parrot, pygmy,
+            <textarea rows="1" name ="modal_area1"placeholder="Animals we bring to school: hamster, guinea pig, rabbit, tortoise, duck, chicken, snake, cat, dog, parrot, pygmy,
 
-goat and ferret. Please mention any you don’t require." style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+        goat and ferret. Please mention any you don’t require." style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
         </div>
         <div class="col-md-12 popup_textarea" style="padding-left: 0px;">
-            <textarea rows="1" placeholder="Face Painter Dhs 300/hour" style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
+            <textarea rows="2" name="modal_area2" placeholder="Face Painter Dhs 300/hour" style="border-color: rgba(255, 255, 255, 0.52)"></textarea>
         </div>
         <div class="clearfix"></div>
       </div>
         <div class="modal-footer">
-            <button type="button" class="popup_button">Confirm</button>
+            <input type="submit" value="Send" />
         </div>
+        </form>
     </div>
   </div>
 </div>
-</form>
+ 
 
 <!-- end of the popup -->
 
@@ -339,7 +341,7 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
             <input type="text" name="school_location" placeholder="Event Location">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="school_email" placeholder="E-mail">
+            <input type="text" name="school_mail" placeholder="E-mail">
             <input type="text" name="school_address" placeholder="Address/Phone Number">
             <input type="text" name="school_inout" placeholder="Indoor/ Outdoor">
         </div>
@@ -416,6 +418,7 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
 
 <!-- end of the popup -->
  <script src="js/jquery.js"></script>
+  <script src="js/notify.js"></script>
 
     <script type="text/javascript">
 
@@ -429,7 +432,7 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
                    data: $("#bookingEvents").serialize()+ "&mail=" + "booking", // serializes the form's elements.
                    success: function(data)
                    {
-                       //alert(data); // show response from the php script.
+                      $.notify(data, "success");
                    }
                  });
 
@@ -437,6 +440,8 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
         });
 
         $("#schoolTip").submit(function(e) {
+
+            console.log("sadsad");
 
             var url = "mailer.php"; // the script where you handle the form input
 
@@ -446,6 +451,7 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
                    data: $("#schoolTip").serialize()+ "&mail=" + "school", // serializes the form's elements.
                    success: function(data)
                    {
+                         $.notify(data, "success");
                        //alert(data); // show response from the php script.
                    }
                  });
@@ -455,6 +461,7 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
 
         $("#petparties").submit(function(e) {
 
+
             var url = "mailer.php"; // the script where you handle the form input
 
             $.ajax({
@@ -463,7 +470,24 @@ goat and ferret. Please mention any you don’t require." style="border-color: r
                    data: $("#petparties").serialize()+ "&mail=" + "petParties", // serializes the form's elements.
                    success: function(data)
                    {
-                       //alert(data); // show response from the php script.
+                      $.notify(data, "success");
+                   }
+                 });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+
+        $("#modalPetting").submit(function(e) {
+
+            var url = "mailer.php"; // the script where you handle the form input
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#modalPetting").serialize()+ "&mail=" + "modal", // serializes the form's elements.
+                   success: function(data)
+                   {
+                      $.notify(data, "success");
                    }
                  });
 

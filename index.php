@@ -209,23 +209,23 @@
                 <p>Please fill in this information to make an appointment!</p>
                 <img src="img/3points.svg" style="width:50px">
             </div>
-            <div class="contact-section-email row">
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
+            <form id="appointmentForm">
+                <div class="contact-section-email row">
+                    <div class="col-md-4 small-padding">
+                        <input type="text" name="appointment_name" placeholder="Name">
+                    </div>
+                    <div class="col-md-4 small-padding">
+                        <input type="text" name="appointment_mail" placeholder="Email">
+                    </div>
+                    <div class="col-md-4 small-padding input-d">                    
+                        <input class="datepicker2" name="appointment_date" placeholder="Start Date">
+                    </div>
+                    <div class="col-md-12 col-xs-12 small-padding">
+                        <textarea placeholder="Input text" name="appointment_text" rows="7"></textarea>
+                    </div>
+                    <div class="col-md-4 input-e"><input type="submit" value="Send" /></div>
                 </div>
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Email">
-                </div>
-                <div class="col-md-4 small-padding input-d">                    
-                    <input class="datepicker2" name="pet_fdate" placeholder="Start Date">
-                </div>
-                <div class="col-md-12 col-xs-12 small-padding">
-                    <textarea placeholder="Input text" rows="7"></textarea>
-                </div>
-                <div class="col-md-12 small-padding" style="text-align: left;">
-                    <button>Confirm</button>
-                </div>
-            </div>
+            </form>
         </div>
     </section>
 
@@ -277,6 +277,27 @@
 <!-- end of the popup -->
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/notify.js"></script>
+
+    <script type="text/javascript">
+        $("#appointmentForm").submit(function(e) {
+
+            var url = "mailer.php"; // the script where you handle the form input
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#appointmentForm").serialize()+ "&mail=" + "appointment", // serializes the form's elements.
+                   success: function(data)
+                   {
+                      $.notify(data, "success");
+                   }
+                 });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+
+    </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
