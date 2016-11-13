@@ -6,7 +6,7 @@
    $bodyMail = '';
    $subjectEmail = '';
    $emailFrom = '';
-   $passwordMail = "********";
+   $passwordMail = "nitarilind";
    $mailSent = "Mail has been sent";
 
    if($_POST['mail'] == "booking"){
@@ -77,7 +77,7 @@
 							'<label>Face Painter </label>'.$_POST['modal_area2'].'<br>';
 
 			$bodyMail = $modalPettingBody;
-			$subjectEmail = 'Email -  Booking Form Petting Form Parties';
+			$subjectEmail = 'Email -  Booking Form Petting Form Partie';
 
 	 		//$emailFrom = $_POST['school_mail'];
 		}
@@ -85,7 +85,7 @@
 
 // Create the Transport
 $transport = Swift_SmtpTransport::newInstance('smtp.gmail.com', 465, 'ssl')
-  ->setUsername('blinizeka@gmail.com')
+  ->setUsername('rilindp@gmail.com')
   ->setPassword($passwordMail)
   ;
 
@@ -94,8 +94,8 @@ $mailer = Swift_Mailer::newInstance($transport);
 
 // Create a message
 $message = Swift_Message::newInstance($subjectEmail)
-  ->setFrom(array('blinizeka@gmail.com' => ''))
-  ->setTo(array('blinizeka@gmail.com' => 'Blin Zeka'))
+  ->setFrom(array('rilindp@gmail.com' => ''))
+  ->setTo(array('sacha@emiratesgraphic.com' => 'Sacha Christe'))
   ->setBody($bodyMail, 'text/html');
 
 // Send the message
