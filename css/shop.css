@@ -133,6 +133,7 @@
 
 .section2 .image-section img{
   width: 100%;
+  margin-top: 30px;
 }
 
 .section2 button {
@@ -227,6 +228,38 @@
 }
 
 
+/*Map section*/
+
+.contact-section2 {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    background: white;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+    background-position:center;
+}
+
+.contact-section2 h1 {
+    font-family: 'GrandHotel-Regular';
+    color: #a5ceee;
+    font-size: 70px;
+}
+
+.contact-section2 h4 {
+    font-family: 'GrandHotel-Regular';
+    color: #a5ceee;
+    font-size: 30px;
+}
+
+.contact-section2 p {
+    font-family: 'GOTHAM-LIGHT';
+    color: #a5ceee;
+    padding-top: 10px;
+}
 
 
 
@@ -357,6 +390,9 @@ footer i {
 @media only screen and (max-width: 844px) {
     footer {
         text-align: center;
+    }
+    .desktop-d-n {
+      display: none;
     }
     .rights-footer {
         display: none;
