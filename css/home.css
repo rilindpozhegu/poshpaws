@@ -242,8 +242,8 @@
 .contact-section-email input {
     width: 100%;
     padding: 10px 10px;
-    border: solid 1px #1c1d22;
-    color: #1c1d22;
+    border: solid 1px #85d6df;
+    color: #85d6df;
     background-color: transparent;
     border-radius: 5px;
 }
@@ -256,8 +256,8 @@
 .contact-section-email textarea {
     width: 100%;
     padding: 10px 10px;
-    border: solid 1px #1c1d22;
-    color: #1c1d22;
+    border: solid 1px #85d6df;
+    color: #85d6df;
     background-color: transparent;
     border-radius: 5px;
 }
@@ -277,17 +277,18 @@
     font-family: 'Montserrat';
 }
 ::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-  color: #1c1d22;
+  color: #85d6df;
 }
 ::-moz-placeholder { /* Firefox 19+ */
-  color: #1c1d22;
+  color: #85d6df;
 }
 :-ms-input-placeholder { /* IE 10+ */
-  color: #1c1d22;
+  color: #85d6df;
 }
 :-moz-placeholder { /* Firefox 18- */
-  color: #1c1d22;
+  color: #85d6df;
 }
+
 
 
 
@@ -336,9 +337,9 @@
   z-index: 99999999999;
 }
 .input-d input {
-  background-color: #fe908b;
+  background-color: transparent;
   width: 100%;
-  border: none;
+  border: solid 1px #85d6df;
   padding: 11px 15px;
   border-radius: 5px;
 }

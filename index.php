@@ -209,25 +209,26 @@
                 <p>Please fill in this information to make an appointment!</p>
                 <img src="img/3points.svg" style="width:50px">
             </div>
-            <form id="appointmentForm">
-                <div class="contact-section-email row">
-                    <div class="col-md-4 small-padding">
-                        <input type="text" name="appointment_name" placeholder="Name">
-                    </div>
-                    <div class="col-md-4 small-padding">
-                        <input type="text" name="appointment_mail" placeholder="Email">
-                    </div>
-                    <div class="col-md-4 small-padding input-d">                    
-                        <input class="datepicker2" name="appointment_date" placeholder="Start Date">
-                    </div>
-                    <div class="col-md-12 col-xs-12 small-padding">
-                        <textarea placeholder="Input text" name="appointment_text" rows="7"></textarea>
-                    </div>
-                    <div class="col-md-4 input-e"><input type="submit" value="Send" /></div>
+            <div class="contact-section-email row">
+                <div class="col-md-4 small-padding">
+                    <input type="text" name="email" placeholder="Name">
                 </div>
-            </form>
+                <div class="col-md-4 small-padding">
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="col-md-4 small-padding input-d">                    
+                    <input class="datepicker2" name="pet_fdate" placeholder="Start Date">
+                </div>
+                <div class="col-md-12 col-xs-12 small-padding">
+                    <textarea placeholder="Input text" rows="7"></textarea>
+                </div>
+                <div class="col-md-12 small-padding" style="text-align: left;">
+                    <button>Confirm</button>
+                </div>
+            </div>
         </div>
     </section>
+
 
     <!-- Contact Section -->
     <section class="contact-section2">
@@ -240,7 +241,7 @@
                <div class="col-md-6 col-xs-12">
                    <h1>Contact Info</h1>
                     <img src="img/3points.svg" class="points3">
-                    <h4>PO Box 6273 Ajman</h4>
+                    <h4>Warehouse no2 & 3 Street 37 Dubai</h4>
                     <p>Opening Hours 9am – 5pm</p>
                     <p>Office: 050 2730973</p>
                     <p>poshpawsdubai@yahoo.co.uk</p>
