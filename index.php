@@ -164,36 +164,34 @@
             <div class="testim-1 col-md-4">
                 <div class="row test-top-text">
                     <img src="img/pikep1.svg">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p>Thank you Laura for looking after George and Ginger so well. They both look very well, not fat, and happy.  They settled back home quickly and briefly went outside but it was too hot!  The drop off service was great too!</p>
                 </div>
                 <div class="row test-bottom">
                     <img src="img/avatar-1.png">
-                    <h5>Sacha Christe</h5>
-                    <p>General Manager</p>
+                    <h5>Victoria</h5>
                 </div>
             </div>
 
             <div class="testim-1 col-md-4">
                 <div class="row test-top-text" style="background-color: #fe908b;">
                     <img src="img/pikep12.svg">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p>Hi Laura. Just to say a massive thank you to you and your staff. My 5 cats and dog all came home after their Xmas stay at Posh Paws so happy and healthy. Will
+be booking them in for summer as soon as we have dates. Thanks again.</p>
                 </div>
                 <div class="row test-bottom">
                     <img src="img/avatar-1.png">
-                    <h5>Sacha Christe</h5>
-                    <p>General Manager</p>
+                    <h5>Pauline Morrison</h5>
                 </div>
             </div>
 
             <div class="testim-1 col-md-4">
                 <div class="row test-top-text">
                     <img src="img/pikep1.svg">
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                    <p>I just wanted to say a massive 'thank you!' To you and your team for Emily's party. Her and her friends - including all the parents - just had the most wonderful time. Lots of laughs and happy faces.</p>
                 </div>
                 <div class="row test-bottom">
                     <img src="img/avatar-1.png">
-                    <h5>Sacha Christe</h5>
-                    <p>General Manager</p>
+                    <h5>Simone Bourne</h5>
                 </div>
             </div>
         </div>
@@ -241,7 +239,7 @@
                <div class="col-md-6 col-xs-12">
                    <h1>Contact Info</h1>
                     <img src="img/3points.svg" class="points3">
-                    <h4>Warehouse no2 & 3 Street 37 Dubai</h4>
+                    <h4>DIP 1. Warehouse no2 & 3 Street 37 Dubai</h4>
                     <p>Opening Hours 9am – 5pm</p>
                     <p>Office: 050 2730973</p>
                     <p>poshpawsdubai@yahoo.co.uk</p>
