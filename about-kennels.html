@@ -175,7 +175,7 @@
 
 <!-- popup-Modal -->
 <!-- Modal -->
-<form id="kennelsForm">
+
 <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="myModal">
   <div class="modal-dialog modal-lg medium-popup" role="document">
     <div class="modal-content">
@@ -187,66 +187,67 @@
             <img src="img/3points.svg" style="width:70px">
         </div>
       <div class="modal-body">
+      <form id="dogBoarding"> 
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="dog_name" placeholder="Name">
+            <input type="text" name="dog_gender" placeholder="Male/Female">
+            <input type="text" name="dog_neutred" placeholder="Neutred?">
+            <input type="text" name="dog_breed" placeholder="Breed">
+            <input type="text" name="dog_color" placeholder="Color">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="dog_name1" placeholder="Name">
+            <input type="text" name="dog_gender1" placeholder="Male/Female">
+            <input type="text" name="dog_neutred1" placeholder="Neutred?">
+            <input type="text" name="dog_breed1" placeholder="Breed">
+            <input type="text" name="dog_color1" placeholder="Color">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="dog_name3" placeholder="Name">
+            <input type="text" name="dog_gender3" placeholder="Male/Female">
+            <input type="text" name="dog_neutred3" placeholder="Neutred?">
+            <input type="text" name="dog_breed3" placeholder="Breed">
+            <input type="text" name="dog_color3" placeholder="Color">
         </div>
 
         <div class="clearfix"></div>
         <div class="second-section_popup" style="margin-top: 20px;">
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Arrival Date">
-                <input type="text" name="Name" placeholder="Telephone">
+                <input type="text" name="dog_arival" placeholder="Arrival Date">
+                <input type="text" name="dog_telephone" placeholder="Telephone">
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Dept Date">
-                <input type="text" name="Name" placeholder="Moblie 1">
+                <input type="text" name="dog_dept" placeholder="Dept Date">
+                <input type="text" name="dog_mobile1" placeholder="Moblie 1">
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Owner's Name">
-                <input type="text" name="Name" placeholder="Mobile 2"> 
+                <input type="text" name="dog_owner" placeholder="Owner's Name">
+                <input type="text" name="dog_mobile2" placeholder="Mobile 2"> 
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Address">
-                <input type="text" name="Name" placeholder="Email">
+                <input type="text" name="dog_address" placeholder="Address">
+                <input type="text" name="dog_email" placeholder="Email">
             </div>
             <div class="col-md-6 input-s">
-                <input type="text" name="Name" placeholder="Emergency Contact Details">
+                <input type="text" name="dog_emergency" placeholder="Emergency Contact Details">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Vet">
+                <input type="text" name="dog_vet" placeholder="Vet">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Vet Tel">
+                <input type="text" name="dog_vettel" placeholder="Vet Tel">
             </div>
         </div>    
         <div class="clearfix"></div>
         <div class="third-section_popup" style="margin-top: 20px;">
             <div class="col-md-6 input-s">
-                <input type="text" name="Name" placeholder="Medical History">
+                <input type="text" name="dog_medical" placeholder="Medical History">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Collection Yes/No">
+                <input type="text" name="dog_collection" placeholder="Collection Yes/No">
             </div> 
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Delivery Yes/No">
+                <input type="text" name="dog_delivery" placeholder="Delivery Yes/No">
             </div>
         </div>
 
@@ -256,10 +257,10 @@
                 <p>Frontline will be given on arrival unless otherwise advised.</p>
             </div>
             <div class="col-md-8 input-s">
-                <input type="text" name="Name" placeholder="Name">
+                <input type="text" name="dog_name4" placeholder="Name">
             </div>
             <div class="col-md-4" style="padding: 5px 3px 0px 3px">                
-            <select class="select-package">
+            <select name="dog_dropdown" class="select-package">
                 <option value="" selected disabled>Select Package</option>
                 <option value="">Small<span>1-10/kg</span></option>
                 <option value="">Medium<span>11-20/kg</span></option>
@@ -272,16 +273,37 @@
         <div class="clearfix"></div>
       </div>
         <div class="modal-footer">
-            <button type="button" class="popup_button">Save changes</button>
+             <input type="submit" value="Send" />
         </div>
     </div>
+    </form>
   </div>
 </div>
-</form>
+
 
 <!-- end of the popup -->    
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
+    <script src="js/notify.js"></script>
+
+     <script type="text/javascript">
+        $("#dogBoarding").submit(function(e) {
+
+            var url = "mailer.php"; // the script where you handle the form input
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#dogBoarding").serialize()+ "&mail=" + "dogBoarding", // serializes the form's elements.
+                   success: function(data)
+                   {
+                      $.notify(data, "success");
+                   }
+                 });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>

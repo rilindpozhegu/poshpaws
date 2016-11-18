@@ -221,7 +221,7 @@ be booking them in for summer as soon as we have dates. Thanks again.</p>
                     <textarea placeholder="Input text" rows="7"></textarea>
                 </div>
                 <div class="col-md-12 small-padding" style="text-align: left;">
-                    <button>Confirm</button>
+                    <input type="submit" value="Send" />
                 </div>
             </div>
         </div>

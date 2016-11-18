@@ -209,70 +209,71 @@ Long term stay - please enquire for rates.</p>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
-            <h4 class="modal-title" id="myModalLabel">Cat Boarding Form</h4>
+            <h4 class="modal-title" id="myModalLabel">Dog Boarding Form</h4>
             <img src="img/3points.svg" style="width:70px">
         </div>
       <div class="modal-body">
+      <form id="catBoarding"> 
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="cat_name" placeholder="Name">
+            <input type="text" name="cat_gender" placeholder="Male/Female">
+            <input type="text" name="cat_neutred" placeholder="Neutred?">
+            <input type="text" name="cat_breed" placeholder="Breed">
+            <input type="text" name="cat_color" placeholder="Color">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="cat_name1" placeholder="Name">
+            <input type="text" name="cat_gender1" placeholder="Male/Female">
+            <input type="text" name="cat_neutred1" placeholder="Neutred?">
+            <input type="text" name="cat_breed1" placeholder="Breed">
+            <input type="text" name="cat_color1" placeholder="Color">
         </div>
         <div class="col-md-4 input-s">
-            <input type="text" name="Name" placeholder="Name">
-            <input type="text" name="Name" placeholder="Male/Female">
-            <input type="text" name="Name" placeholder="Neutred?">
-            <input type="text" name="Name" placeholder="Breed">
-            <input type="text" name="Name" placeholder="Color">
+            <input type="text" name="cat_name3" placeholder="Name">
+            <input type="text" name="cat_gender3" placeholder="Male/Female">
+            <input type="text" name="cat_neutred3" placeholder="Neutred?">
+            <input type="text" name="cat_breed3" placeholder="Breed">
+            <input type="text" name="cat_color3" placeholder="Color">
         </div>
 
         <div class="clearfix"></div>
         <div class="second-section_popup" style="margin-top: 20px;">
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Arrival Date">
-                <input type="text" name="Name" placeholder="Telephone">
+                <input type="text" name="cat_arival" placeholder="Arrival Date">
+                <input type="text" name="cat_telephone" placeholder="Telephone">
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Dept Date">
-                <input type="text" name="Name" placeholder="Moblie 1">
+                <input type="text" name="cat_dept" placeholder="Dept Date">
+                <input type="text" name="cat_mobile1" placeholder="Moblie 1">
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Owner's Name">
-                <input type="text" name="Name" placeholder="Mobile 2"> 
+                <input type="text" name="cat_owner" placeholder="Owner's Name">
+                <input type="text" name="cat_mobile2" placeholder="Mobile 2"> 
             </div>
             <div class="col-md-3 input-s">
-                <input type="text" name="Name" placeholder="Address">
-                <input type="text" name="Name" placeholder="Email">
+                <input type="text" name="cat_address" placeholder="Address">
+                <input type="text" name="cat_email" placeholder="Email">
             </div>
             <div class="col-md-6 input-s">
-                <input type="text" name="Name" placeholder="Emergency Contact Details">
+                <input type="text" name="cat_emergency" placeholder="Emergency Contact Details">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Vet">
+                <input type="text" name="cat_vet" placeholder="Vet">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Vet Tel">
+                <input type="text" name="cat_vettel" placeholder="Vet Tel">
             </div>
         </div>    
         <div class="clearfix"></div>
         <div class="third-section_popup" style="margin-top: 20px;">
             <div class="col-md-6 input-s">
-                <input type="text" name="Name" placeholder="Medical History">
+                <input type="text" name="cat_medical" placeholder="Medical History">
             </div>
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Collection Yes/No">
+                <input type="text" name="cat_collection" placeholder="Collection Yes/No">
             </div> 
             <div class="col-md-3 input-s">                
-                <input type="text" name="Name" placeholder="Delivery Yes/No">
+                <input type="text" name="cat_delivery" placeholder="Delivery Yes/No">
             </div>
         </div>
 
@@ -281,8 +282,16 @@ Long term stay - please enquire for rates.</p>
             <div class="col-md-12">
                 <p>Frontline will be given on arrival unless otherwise advised.</p>
             </div>
-            <div class="col-md-12 input-s">
-                <input type="text" name="Name" placeholder="Name">
+            <div class="col-md-8 input-s">
+                <input type="text" name="cat_name4" placeholder="Name">
+            </div>
+            <div class="col-md-4" style="padding: 5px 3px 0px 3px">                
+            <select name="cat_dropdown" class="select-package">
+                <option value="" selected disabled>Select Package</option>
+                <option value="">Small<span>1-10/kg</span></option>
+                <option value="">Medium<span>11-20/kg</span></option>
+                <option value="">Large<span>20+/kg</span></option>
+            </select>
             </div>
         </div>
 
@@ -290,9 +299,10 @@ Long term stay - please enquire for rates.</p>
         <div class="clearfix"></div>
       </div>
         <div class="modal-footer">
-            <button type="button" class="popup_button">Save changes</button>
+             <input type="submit" value="Send" />
         </div>
     </div>
+    </form>
   </div>
 </div>
 
@@ -302,8 +312,27 @@ Long term stay - please enquire for rates.</p>
 
 
 
-    <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+     <script src="js/jquery.js"></script>
+    <script src="js/notify.js"></script>
+
+     <script type="text/javascript">
+        $("#catBoarding").submit(function(e) {
+
+            var url = "mailer.php"; // the script where you handle the form input
+
+            $.ajax({
+                   type: "POST",
+                   url: url,
+                   data: $("#catBoarding").serialize()+ "&mail=" + "catBoarding", // serializes the form's elements.
+                   success: function(data)
+                   {
+                      $.notify(data, "success");
+                   }
+                 });
+
+            e.preventDefault(); // avoid to execute the actual submit of the form.
+        });
+     </script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
