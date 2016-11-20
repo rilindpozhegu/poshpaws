@@ -207,23 +207,25 @@ be booking them in for summer as soon as we have dates. Thanks again.</p>
                 <p>Please fill in this information to make an appointment!</p>
                 <img src="img/3points.svg" style="width:50px">
             </div>
-            <div class="contact-section-email row">
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Name">
-                </div>
-                <div class="col-md-4 small-padding">
-                    <input type="text" name="email" placeholder="Email">
-                </div>
-                <div class="col-md-4 small-padding input-d">                    
-                    <input class="datepicker2" name="pet_fdate" placeholder="Start Date">
-                </div>
-                <div class="col-md-12 col-xs-12 small-padding">
-                    <textarea placeholder="Input text" rows="7"></textarea>
-                </div>
-                <div class="col-md-12 small-padding" style="text-align: left;">
-                    <input type="submit" value="Send" />
-                </div>
-            </div>
+             <form id="appointmentForm">
+                    <div class="contact-section-email row">            
+                        <div class="col-md-4 small-padding">
+                    <input type="text" name="appointment_name" placeholder="Name">
+                    </div>
+                    <div class="col-md-4 small-padding">
+                        <input type="text" name="appointment_mail" placeholder="Email">
+                    </div>
+                    <div class="col-md-4 small-padding input-d">                    
+                        <input class="datepicker2" name="appointment_date" placeholder="Start Date">
+                    </div>
+                    <div class="col-md-12 col-xs-12 small-padding">
+                        <textarea name"appointment_text" placeholder="Input text" rows="7"></textarea>
+                    </div>
+                    <div class="col-md-3 small-padding" style="text-align: left;">
+                        <input type="submit" value="Send" />
+                    </div>
+                    </div>
+                </form>
         </div>
     </section>
 
